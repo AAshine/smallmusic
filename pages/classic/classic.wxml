@@ -1,0 +1,10 @@
+<!--pages/classic/classic.wxml-->
+<!-- like是一个属性  -->
+<view class="container">
+  <view class='header'>
+    <l-epsoide class="epsoide" index="{{classicData.index}}" />
+    <l-like class="like" bind:like="onLike" like="{{classicData.like_status}}" count="{{classicData.fav_nums}}" />
+  </view>
+  <l-movie img="{{classicData.image}}" content="{{classicData.content}}" />
+  <l-navia bind:left="onNext" bind:right="onPrevious" title="{{classicData.title}}" first="{{first}}" latest="{{latest}}" class="navia" />
+</view>

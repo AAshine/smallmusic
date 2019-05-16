@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/classic/classic"
+  ],
+  "window":{
+    "navigationBarBackgroundColor":"#fff",
+    "navigationBarTitleText":"枯藤老树",
+    "navigationBarTextStyle":"black",
+    "navgationStyle":"default",
+    "backgroundColor": "#ffffff",
+    "enblePullDownRefresh":false
+  }
+}
